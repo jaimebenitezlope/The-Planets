@@ -1,10 +1,10 @@
+import Header from '../components/header/Header';
+
 const Home = () => {
 	return (
 		<>
-			<h1>Home</h1>
+			<Header />
 		</>
 	);
 };
 export default Home;
-
-// aquí cargamos los componentes Home, menu, fouter, etc

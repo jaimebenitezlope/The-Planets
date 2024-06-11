@@ -9,14 +9,22 @@ export const GlobalStyles = createGlobalStyle`
 
   img{
     display: block;
-    max-width: 100%;
+    
   }
   
   body{
+    box-sizing: border-box;
     margin: 0;
-    font-family: sans-serif;
+    color: #FFFFFF;
+    width: 375px;
+    height: 950px;
+    background-color: #070724;
+    font-family: "Antonio", sans-serif;
+    font-weight: 100;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
   }
-
   a{
     text-decoration: none;
     color: inherit;
@@ -28,4 +36,7 @@ export const GlobalStyles = createGlobalStyle`
     margin-bottom: 0;
     padding-left: 0;
   }  
+
+
+  
 `;

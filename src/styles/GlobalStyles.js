@@ -16,8 +16,7 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     margin: 0;
     color: #FFFFFF;
-    width: 375px;
-    height: 950px;
+    background-image: url('/public/planets-data/assets/background-stars.svg');
     background-color: #070724;
     font-family: "Antonio", sans-serif;
     font-weight: 100;

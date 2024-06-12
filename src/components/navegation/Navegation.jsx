@@ -1,13 +1,14 @@
-import { StyledBox } from './Navegation.style';
+import { StyledNavegation } from './Navegation.style';
 
 const Navegation = () => {
 	return (
 		<>
-			<StyledBox>
+			<StyledNavegation>
+
 				<p>OVERVIEW</p>
 				<p>STRUCTURE</p>
 				<p>SURFACE</p>
-			</StyledBox>
+			</StyledNavegation>
 		</>
 	);
 };

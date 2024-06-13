@@ -36,6 +36,11 @@ export const GlobalStyles = createGlobalStyle`
     padding-left: 0;
   }  
 
+  .no-scroll {
+    overflow: hidden;
+}
+
+
 
   
 `;

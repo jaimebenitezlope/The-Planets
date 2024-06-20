@@ -1,12 +1,13 @@
-import { StyledNavegation } from './Navegation.style';
+import { StyledButton, StyledNavegation } from './Navegation.style';
 
 const Navegation = () => {
 	return (
 		<>
+
 			<StyledNavegation>
-				<p>OVERVIEW</p>
-				<p>STRUCTURE</p>
-				<p>SURFACE</p>
+				<StyledButton>OVERVIEW</StyledButton>
+				<StyledButton>STRUCTURE</StyledButton>
+				<StyledButton>SURFACE</StyledButton>
 			</StyledNavegation>
 		</>
 	);

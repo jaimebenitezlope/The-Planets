@@ -3,7 +3,8 @@ import {
 	StyledDiv,
 	MenuContainer,
 	HamburgerIcon,
-	MenuContent
+	MenuContent,
+	StyledButton
 } from './header.style';
 
 const Header = () => {
@@ -34,42 +35,38 @@ const Header = () => {
 			<MenuContainer open={menuOpen}>
 				<MenuContent>
 					<div>
-						<p>MERCURY</p>
+						<StyledButton>MERCURY</StyledButton>
+						<img src='/public/planets-data/assets/icons8-arrow-50.png' alt='' />
+					</div>
+					<div>
+						<StyledButton>VENUS</StyledButton>
+						<img src='/public/planets-data/assets/icons8-arrow-50.png' alt='' />
+					</div>
+					<div>
+						<StyledButton>EARTH</StyledButton>
+						<img src='/public/planets-data/assets/icons8-arrow-50.png' alt='' />
+					</div>
+					<div>
+						<StyledButton>MARS</StyledButton>
+						<img src='/public/planets-data/assets/icons8-arrow-50.png' alt='' />
+					</div>
+					<div>
+						<StyledButton>JUPITER</StyledButton>
 						<img src='/public/planets-data/assets/icons8-arrow-50.png' alt='' />
 					</div>
 
 					<div>
-						<p>VENUS</p>
+						<StyledButton>SATURN</StyledButton>
 						<img src='/public/planets-data/assets/icons8-arrow-50.png' alt='' />
 					</div>
 
 					<div>
-						<p>EARTH</p>
+						<StyledButton>URANUS</StyledButton>
 						<img src='/public/planets-data/assets/icons8-arrow-50.png' alt='' />
 					</div>
 
 					<div>
-						<p>MARS</p>
-						<img src='/public/planets-data/assets/icons8-arrow-50.png' alt='' />
-					</div>
-
-					<div>
-						<p>JUPITER</p>
-						<img src='/public/planets-data/assets/icons8-arrow-50.png' alt='' />
-					</div>
-
-					<div>
-						<p>SATURN</p>
-						<img src='/public/planets-data/assets/icons8-arrow-50.png' alt='' />
-					</div>
-
-					<div>
-						<p>URANUS</p>
-						<img src='/public/planets-data/assets/icons8-arrow-50.png' alt='' />
-					</div>
-
-					<div>
-						<p>NEPTUNE</p>
+						<StyledButton>NEPTUNE</StyledButton>
 						<img src='/public/planets-data/assets/icons8-arrow-50.png' alt='' />
 					</div>
 				</MenuContent>

@@ -12,9 +12,7 @@ const StyledDiv = styled.div`
 		width: 24px;
 		height: 17px;
 	}
-	font {
-		font-size: 28px;
-	}
+	
 	border-bottom: 1px solid #979797;
 `;
 
@@ -34,8 +32,7 @@ const MenuContainer = styled.div`
 	transition: left 0.3s ease;
 	background-image: url('/public/planets-data/assets/background-stars.svg');
 	background-color: #070724;
-	font-family: 'League Spartan', sans-serif;
-	font-weight: 600;
+	
 `;
 
 const MenuContent = styled.div`
@@ -48,8 +45,6 @@ const MenuContent = styled.div`
 		border-bottom: 0.5px solid #979797;
 	}
 
-	p {
-	}
 	img {
 		width: 10px;
 		height: 10px;
@@ -57,4 +52,19 @@ const MenuContent = styled.div`
 	}
 `;
 
-export { StyledDiv, HamburgerIcon, MenuContainer, MenuContent };
+const StyledButton = styled.button`
+	color: #979797;
+	margin-bottom: 5px;
+	font-size: 12px;
+	font-family: 'League Spartan', sans-serif;
+	background: none;
+	border: none;
+	margin-top: 5px;
+	font-family: 'League Spartan', sans-serif;
+	font-weight: 600;
+	padding: 20px;
+	color: white;
+	font-size: 18px;
+`;
+
+export { StyledButton, StyledDiv, HamburgerIcon, MenuContainer, MenuContent };
